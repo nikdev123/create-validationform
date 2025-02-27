@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add New Contact</title>
+  <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Add New Contact</h2>
+    <form id="contactForm" novalidate>
+      <!-- Name -->
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <div class="error" id="nameError"></div>
+      </div>
+      
+      <!-- Email ID -->
+      <div class="form-group">
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <div class="error" id="emailError"></div>
+      </div>
+      
+      <!-- Phone Number -->
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" placeholder="10-digit phone number">
+        <div class="error" id="phoneError"></div>
+      </div>
+      
+      <!-- State -->
+      <div class="form-group">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" placeholder="Enter your state">
+        <div class="error" id="stateError"></div>
+      </div>
+      
+      <!-- District -->
+      <div class="form-group">
+        <label for="district">District:</label>
+        <input type="text" id="district" name="district" placeholder="Enter your district">
+        <div class="error" id="districtError"></div>
+      </div>
+      
+      <!-- Village -->
+      <div class="form-group">
+        <label for="village">Village:</label>
+        <input type="text" id="village" name="village" placeholder="Enter your village">
+        <div class="error" id="villageError"></div>
+      </div>
+      
+      <!-- Pin Code -->
+      <div class="form-group">
+        <label for="pincode">Pin Code:</label>
+        <input type="text" id="pincode" name="pincode" placeholder="6-digit pin code">
+        <div class="error" id="pincodeError"></div>
+      </div>
+      
+      <!-- LinkedIn ID -->
+      <div class="form-group">
+        <label for="linkedin">LinkedIn ID:</label>
+        <input type="text" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn ID">
+        <div class="error" id="linkedinError"></div>
+      </div>
+      
+      <button type="submit" class="btn">Add Contact</button>
+    </form>
+  </div>
+  <script src="validation.js"></script>
+</body>
+</html>
+s
